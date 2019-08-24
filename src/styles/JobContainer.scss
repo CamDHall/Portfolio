@@ -1,0 +1,118 @@
+@import './variables.scss';
+
+.job-container {
+    margin-top: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+    padding: 2em;
+    img {
+        display: inline-block;
+        width: $image-width;
+        object-fit: cover;
+    }
+
+    .text-container {
+        display: inline-block;
+        vertical-align: top;
+        width: $right-column;
+        padding-left: 1em;
+
+        h3 {
+            margin: 0;
+        }
+
+        h5 {
+            margin: 0.5em 0 0 0;
+        }
+
+        p {
+            display: inline-block;
+        }
+    }
+
+    .project-links {
+        margin-top: 2em;
+        //background-color: $secondary;
+        border: 0.25em solid $secondary;
+        padding: 0.75em 0.5em;
+        button {
+            background: none;
+            border: none;
+            box-shadow: none;
+            font-size: 0.9em;
+            padding: 0;
+            color: black;
+            margin: 0 0.75em;
+            cursor: pointer;
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        .active {
+            font-weight: bold;
+            color: $grey-dark;
+        }
+    }
+}
+
+.icon-container {
+    position: relative;
+    left: 100%;
+    transform: translate(-150%, -125%);
+    display: inline-block;
+    width: $icon-size;
+    height: $icon-size;
+}
+
+.tools {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    li {
+        display: inline-block;
+    }
+    li:after {
+        content: "\00a0";
+    }
+}
+
+.fade {
+    -webkit-animation: fade 1s ease-in-out;
+    animation: fade 1s ease-in-out;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.web {
+    background: url("/image/globe.png");
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: spin 5s linear infinte;
+    -webkit-animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    to {
+      background-position: calc(100% * 2) 0%;
+    }
+  }
+  
+  @-webkit-keyframes spin {
+    to {
+      background-position: calc(100% * 2) 0%;
+    }
+  }

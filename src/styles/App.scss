@@ -1,0 +1,45 @@
+@import './variables.scss';
+
+*, html, body {
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 1em auto;
+}
+.intro {
+    display: flex;
+    align-items: top;
+    h1 {
+        display: inline-block;
+        width: $left-column;
+    }
+    p {
+        display: inline-block;
+        padding-left: 1em;
+        width: $right-column;
+    }
+}
+
+#menu {
+    position: fixed;
+    top: 25%;
+    left: 5%;
+    transform: translate(-50%, 0);
+    display: inline-block;
+    button {
+        display: block;
+        background: none;
+        border: none;
+        outline: none;
+        margin: 2pt 0;
+        font-size: 1em;
+        font-weight: bold;
+    }
+}
