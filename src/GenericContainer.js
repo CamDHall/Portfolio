@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import './styles/JobContainer.scss';
+import './styles/GenericContainer.scss';
 
-export default function JobContainer(props) {
-    const [activeProject, setActiveProject] = useState( props.job.projects[0]);
-    const [projects, setProjects]           = useState(props.job.projects);
+export default function GenericContainer(props) {
+    const [activeProject, setActiveProject] = useState( props.experience.projects[0]);
+    const [projects, setProjects]           = useState(props.experience.projects);
 
 
     const changeActiveProject = (projectTitle) => {
-        const element = document.getElementById(`fade-${props.job.company}`);
+        const element = document.getElementById(`fade-${props.experience.company}`);
 
         const indexOfProject = projects.find(function(item, i) {
             return item.title === projectTitle;
@@ -20,13 +20,13 @@ export default function JobContainer(props) {
     }
 
     return(
-        <div className="job-container">
-            <img src={"image/" + props.job.imageSrc} alt={props.job.title} />
+        <div className="generic-container">
+            <img src={"image/" + props.experience.imageSrc} alt={props.experience.title} />
             <div className="text-container">
-                <h3>{props.job.company}</h3>
-                <h5>{props.job.title}</h5>
+                <h3>{props.experience.company}</h3>
+                <h5>{props.experience.title}</h5>
 
-                <div id={`fade-${props.job.company}`}>
+                <div id={`fade-${props.experience.company}`}>
                     <p className={activeProject.title}>{activeProject.description}</p>
 
                     <h4>Tools:</h4>
@@ -40,7 +40,7 @@ export default function JobContainer(props) {
                 </div>
                 <div className="project-links">
                     {
-                        props.job.projects.map(project => {
+                        props.experience.projects.map(project => {
                             var cName = "inactive";
                             if(project.title === activeProject.title) cName = "active"
                             return (
@@ -50,9 +50,6 @@ export default function JobContainer(props) {
                             )
                         })
                     }
-                </div>
-                <div className="icon-container">
-                    <div className={props.job.industry}></div>
                 </div>
             </div>
         </div>

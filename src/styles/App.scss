@@ -9,6 +9,24 @@
     width: 100%;
 }
 
+h3, h4 {
+    color: $primary-dark;
+}
+
+h5 {
+    color: $grey-dark;
+}
+
+#education h2 {
+    text-align: center;
+    border: 0.2em solid $primary;
+    padding: 0.5em 0;
+}
+
+#education {
+    margin-top: 2em;
+}
+
 .container {
     width: 80%;
     margin: 1em auto;
@@ -33,13 +51,126 @@
     left: 5%;
     transform: translate(-50%, 0);
     display: inline-block;
-    button {
+    a, button {
         display: block;
         background: none;
         border: none;
         outline: none;
-        margin: 2pt 0;
+        margin: 4pt 0;
         font-size: 1em;
         font-weight: bold;
+        color: black;
+        text-decoration: none;
+        padding-left: 5pt;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    .active-link {
+        color: $grey-dark;
+    }
+
+    border-left: solid $secondary 4pt;
+}
+
+#socialIcons {
+    position: fixed;
+    top: 40%;
+    left: 2%;
+    z-index: 10;
+    background-color: $secondary;
+    padding: 0.5em 0.75em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    -webkit-animation: showHide 0.5s linear;
+    animation: showHide 0.5s linear;
+    -moz-animation: showHide 0.5s linear;
+    -ms-animation: showHide 0.5s linear;
+    -o-animation: showHide 0.5s linear;
+    i {
+        font-size: 1.5em;
+        color: $grey-dark;
+    }
+
+    i:hover {
+        color: black;
+    }
+
+    a {
+        margin: 0 0.5em;
     }
 }
+
+@keyframes showHide {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-webkit-keyframes showHide {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-moz-keyframes showHide {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-o-keyframes showHide {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-ms-keyframes showHide {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .intro {
+        display: block;
+
+        h1 {
+            margin-top: 1.5em;
+        }
+
+        h1 br {
+            display: none;
+        }
+        h1, p {
+            display: block;
+            width: 100%;
+        }
+
+        p {
+            padding-left: 0;
+        }
+    }
+
+    #menu {
+        top: 0;
+        left: 50%;
+        width: 100%;
+        text-align: center;
+        background-color: $secondary;
+        border-left: none;
+        border-bottom: solid $secondary 4pt;
+
+        a, button {
+            display: inline-block;
+        }
+    }
+
+    #socialIcons {
+        position: fixed;
+        top: 2.5em;
+        left: 0;
+        display: inline-block;
+        width: auto;
+        z-index: 15;
+    }
+} 
