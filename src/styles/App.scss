@@ -17,6 +17,46 @@ h5 {
     color: $grey-dark;
 }
 
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#fullImage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(black, 0.9);
+    z-index: 20;
+
+    button {
+        position: fixed;
+        top: 4%;
+        left: 95%;
+        color: white;
+        background: none;
+        outline: none;
+        border: none;
+        font-size: 30pt;
+    }
+
+    button:hover {
+        cursor: pointer;
+        z-index: 100;
+    }
+}
+
+#fullImage img {
+    height: 90%;
+    display: block;
+    margin: 2.5% auto;
+}
+
 #education h2 {
     text-align: center;
     border: 0.2em solid $primary;
@@ -51,6 +91,7 @@ h5 {
     left: 5%;
     transform: translate(-50%, 0);
     display: inline-block;
+    z-index: 10;
     a, button {
         display: block;
         background: none;

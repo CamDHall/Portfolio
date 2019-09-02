@@ -8,7 +8,11 @@
     img {
         display: inline-block;
         width: $image-width;
-        object-fit: cover;
+        object-fit: fill;
+    }
+
+    img:hover {
+        cursor: pointer;
     }
 
     .text-container {
@@ -35,8 +39,7 @@
 
     .project-links {
         margin-top: 2em;
-        //background-color: $secondary;
-        border: 0.25em solid $secondary;
+        background-color: $secondary;
         padding: 0.75em 0.5em;
         button {
             background: none;

@@ -1,5 +1,30 @@
 [
     {
+        "title": "Software Developer",
+        "company": "Hagee Ministries",
+        "imageSrc": "saccs.png",
+        "industry": "web",
+        "time": "04/2019-Current",
+        "projects": [
+            {
+                "title": "General Info",
+                "description": "As a software developer at Hagee Ministries, I update and maintain 8 different websites.  These sites are used for collecting donations across the globe as well as eCommerce stores, schools, and other organizations controlled by Hagee Ministries. We recently ported all sites from .NET Framework to .NET Core 2.2. For 6 of our sites which are similar in functionality and design, like <a target='_blank' href='https://www.sa-ccs.org/'>sa-ccs.org</a>, we utilize a component architecture which allows us to work on a unified codebase for sites.",
+                "tools": [ "MS SQL", ".NET Core", ".NET Framework", "TFS" ]
+            },
+            {
+                "title": "JHM.org Port",
+                "description": "I assisted in moving the <a target='_blank' href='https://www.jhm.org'>jhm.org</a> website from .NET Framework to .NET Core 2.2. We also moved a large portion of the sites functionality to shared services and shared controllers, to benefit other Hagee Ministries websites like <a target='_blank' href='https://www.sacornerstone.org/'>sacornerstone.org</a>. I redesigned and merged administrative tools for jhm.org and our customer service software to create a more unified codebase.",
+                "tools": [ ".NET Core", ".NET Framework", "Microsoft SQL" ],
+                "imageSrc": "jhm.png"
+            },
+            {
+                "title": "Component Sites",
+                "description": "I maintain and update Razor views and .NET Core controllers which are shared across 6 different sites associated with Hagee Ministries. I am currently aiding in moving the front-end for our component sites to React, to aid in porting all sites to mobile web apps in the future. One of our biggest component sites is <a target='_blank' href='https://www.sa-ccs.org/'>sa-ccs.org</a>.",
+                "tools": ["NodeJS", "React", "MS SQL", "Jira", "Git"]
+            }
+        ]
+    },
+    {
         "title": "Junior Software Developer",
         "company": "Airstrip Technologies",
         "imageSrc": "airstrip.png",
@@ -8,124 +33,137 @@
         "projects": [
             {
                 "title": "General Info",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien.",
-                "tools": ["React", "MS SQL", "ExpressJS", "NodeJS", "Jira", "Git"]
+                "description": "As a software developer at Airstrip Technologies, I built dashboards to handle large datasets as well as internal tools for installation engineers.  I utilized React, ExpressJS, and Microsoft SQL to build new websites and tools to supplement Airstrip's existing products.",
+                "tools": ["React", "MS SQL", "ExpressJS", "Jira", "Git"]
             },
             {
                 "title": "ECG Tool",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien.",
+                "description": "I worked as the frontend developer for a new Electrocardiography dashboard. The ECG dashboard displays several hundred ECG notifications in realtime, to aid hospital administrators in consistently delivering treatment as fast as possible.  Since the dashboard had to handle a large amount of graphics and timers, I focused on leveraging React to only re-render the absolute minimum to keep the latency of the dashboard under a second when under a high load. ",
                 "tools": [ "React", "Jira", "Git" ]
             },
             {
                 "title": "Cardio Tool",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien.",
-                "tools": ["NodeJS", "React", "MS SQL"]
-            },
-            {
-                "title": "Install Tooling",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien. Install",
-                "tools": ["React", "Jira", "Git"]
+                "description": "The cardio review tool is intended to collect professional feedback from doctors, to better tune our algorithmic tools used to place Pqrst metrics on cardiac wave samples. I built a tool which allowed doctors to review our tools assessment of ECG data, and make adjustments as needed. I used Express, and MS SQL to build a login and other REST endpoints to deliver and capture data. On the frontend, I used React to build interactive graphs.",
+                "tools": ["ExpressJS", "React", "MS SQL"]
             }
         ]
     },
     {
-        "title": "Software Developer",
-        "company": "Hagee Ministries",
-        "imageSrc": "rsm.png",
-        "industry": "web",
-        "time": "03/2018-04/2019",
+        "title": "Booz Allen Hamilton",
+        "company": "Game Engineer Internship",
+        "imageSrc": "bah.png",
+        "industry": "games",
+        "time": "10/2018-12/2018",
         "projects": [
             {
                 "title": "General Info",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien.",
-                "tools": ["React", "MS SQL", "ExpressJS", "NodeJS", "Jira", "Git"]
+                "description": "As an engineering intern at Booz Allen, I worked on a wide range of projects.  I updated mobile apps which suffered from deprecated features for both iOS and Android as well as testing VR simulations. Also,  I helped assemble VR Kits for clients.",
+                "tools": ["Objective-C, Java, Unity3D, C#, HTC Vive"]
             },
             {
-                "title": "ECG Tool",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien.",
-                "tools": [ "React", "Jira", "Git" ]
+                "title": "Mobile App Updates",
+                "description": "Booz Allen maintains several training apps for different clients. The apps were developed with Unity. I upgraded some features like SMS notifications to Push notifications. The apps also needed minor updates to be able to build for modern versions of iOS and Android.",
+                "tools": ["Objective-C, Java, Unity3D" ]
             },
             {
-                "title": "Cardio Tool",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien.",
-                "tools": ["NodeJS", "React", "MS SQL", "Jira", "Git"]
+                "title": "VR Simulation Testing",
+                "description": "I assisted in testing different VR simulations utilizing the HTC Vive VR Headset. I assured all simulations functioned properly and did not suffer performance stuttering. ",
+                "tools": ["HTC Vive"]
             },
             {
-                "title": "Install Tooling",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien. Install",
-                "tools": ["React", "Jira", "Git"]
+                "title": "VR Kits",
+                "description": "I assembled VR Kits for clients. The kits contained all the necessary equipment needed to use our software. As part of the assembly, VR equipment was tested and the client laptop was loaded and prepared for delivery. ",
+                "tools": [ "HTC Vive" ]
             }
         ]
     },
     {
-        "title": "Software Developer",
+        "title": "Game Development Internship",
         "company": "Kids Break Ground",
-        "imageSrc": "rsm.png",
-        "industry": "web",
-        "time": "03/2018-04/2019",
+        "imageSrc": "kbr.png",
+        "industry": "games",
+        "time": "10/2017-02/2018",
         "projects": [
             {
-                "title": "General Info",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien.",
-                "tools": ["React", "MS SQL", "ExpressJS", "NodeJS", "Jira", "Git"]
-            },
-            {
-                "title": "ECG Tool",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien.",
-                "tools": [ "React", "Jira", "Git" ]
-            },
-            {
-                "title": "Cardio Tool",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien.",
-                "tools": ["NodeJS", "React", "MS SQL", "Jira", "Git"]
-            },
-            {
-                "title": "Install Tooling",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien. Install",
-                "tools": ["React", "Jira", "Git"]
+                "title": "Kids Break Ground Mobile App",
+                "description": "As part of my internship, I finished an MVP version of the application and then ported the app from React Native to Unity, for future improvements. I used Firebase for user logins and to store game data. I developed a framework for flashcard minigames. I improved the avatar customization for the user profiles. ",
+                "tools": ["React Native, Unity3D, C#"]
             }
         ]
     },
     {
-        "title": "Software Developer",
-        "company": "NYU Stern",
+        "title": "Web/Marketing Internship",
+        "company": "RSM Marketing",
         "imageSrc": "rsm.png",
         "industry": "web",
-        "time": "03/2018-04/2019",
+        "time": "05/2017-12/2017",
         "projects": [
             {
                 "title": "General Info",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien.",
-                "tools": ["React", "MS SQL", "ExpressJS", "NodeJS", "Jira", "Git"]
+                "description": "As an intern at RSM Marketing, I spent half the week performing marketing work for RSM Marketing while the other half was spent working on E2E Wichita's website in preparation for their first business accelerator.",
+                "tools": ["WordPress, Social Media Marketing, Writing"]
             },
             {
-                "title": "ECG Tool",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien.",
-                "tools": [ "React", "Jira", "Git" ]
+                "title": "E2E Wichita Website",
+                "description": "I created an internal forum which mentors and participates utilized during and after the E2E business accelerator. I updated the WordPress site to be more responsive and conform with the rest of E2E's branding.",
+                "tools": [ "WordPress" ],
+                "imageSrc": "e2e.png"
             },
             {
-                "title": "Cardio Tool",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien.",
-                "tools": ["NodeJS", "React", "MS SQL", "Jira", "Git"]
-            },
-            {
-                "title": "Install Tooling",
-                "description": "Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien. Install",
-                "tools": ["React", "Jira", "Git"]
+                "title": "Copywriting",
+                "description": "I wrote copy for 12 different clients which spanned across Instagram, Facebook, and Twitter. I also scheduled post and monitored social accounts and messages from customers. I also wrote blogs for 3 different clients in the manufacturing and constructing industries. ",
+                "tools": ["Facebook, Instagram, Copywriting, Buffer"]
             }
         ]
     },
     {
-        "title": "Wichita State Univeristy",
-        "company": "Bachelor's of Business Administration - Marketing",
-        "imageSrc": "rsm.png",
+        "title": "Bachelor's of Fine Arts - Game Design",
+        "company": "New York University",
+        "imageSrc": "nyu.png",
+        "industry": "school",
+        "time": "01/2016-12/2017",
+        "projects": [
+            {
+                "title": "General Info",
+                "description": "As an undergraduate at NYU's Game Center, I learned not only how to develop games, but how to manage scope and expectations.  The game program exposed me to all aspects of games including design, programming, art, and audio. I focused on programming and build procedurally generated games. ",
+                "tools": [ "Unity3D, Game Design, Game Development, Git, C#, Maya, Photoshop" ]
+            },
+            {
+                "title": "Gelato Banditos",
+                "description": "For my action games and intermediate game programming classes, I worked on an open-world, space-flight game. Gelato Banditos originally was an infinite asteroid field with some space combat. After finishing a tech demo, I decided to change the scope to fit my technical skillset and to improve the fun-ness of the game. I learned how to generate large amounts of 3D models and basic enemy AI. The original demo can be foudn on itch: <a target='_blank' href='https://camerondhall.itch.io/gelato-banditos-prototype'>Gelato Banditos</a>",
+                "tools": ["Unity3D, Procedural Generation, 3D movement"],
+                "imageSrc": "gelatobanditos.png"
+            },
+            {
+                "title": "Up Next",
+                "description": "As a programmer in a team of 4, I worked on spawning mechanics for an Arena Shooter game. Up Next was developed as part of a group project for Intermediate Game Development and the final project can be found on itch: <a target='_blank' href='https://tfinz.itch.io/up-next'>Up Next</a>",
+                "tools": [ "Unity3D, C#, Git" ],
+                "imageSrc": "upnext.png"
+            },
+            {
+                "title": "Pumping in the Bathroom",
+                "description": "Pumping in the bathroom was the first game I worked on using Unity3D. For my introduction to game develop class final, we were asked to make a game that represented our lives in some way. As a type 1 diabetic, I decided to make a game about how annoying small things which only diabetics would understand. This project acted as a big lesson on scoping. In the end, I was able to complete one small scene where players simply have to navigate through a menu as quickly as possible while dodging bystanders. ",
+                "tools": [ "Maya, Unity3D, C#, Git" ],
+                "imageSrc": "pumping.png"
+            }
+        ]
+    },
+    {
+        "title": "Bachelor's of Business Administration - Marketing",
+        "company": "Wichita State University",
+        "imageSrc": "wsu.png",
         "industry": "school",
         "time": "08/2013-12/2015",
         "projects": [
             {
-                "title": "Venture Feasibility Analysis",
-                "description": "adfadsfad asdf asd fasdf asd asf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asf asdf asd asdf asd fasdf asdf asdf asdf asdf asdf asdfasdfasdfasdfasdfa sdf asdf as fasdf asdf asdf ",
-                "tools": ["Market Analysis"]
+                "title": "General Info",
+                "description": "As a student at Wichita State University, I studied marketing, entrepreneurship, and economics. I was a member of Barton Internship Group which took on projects from the Wichita community to allow students to work on real-world projects alongside professionals. ",
+                "tools": [ "Marekting, Accounting, Economics" ]
+            },
+            {
+                "title": "Wichita Indochinese Center",
+                "description": "For my promotional management class, I worked with one other student to develop a marketing plan for the Wichita Indochinese Center. The center is a nonprofit organization which teaches English as a Second language classes. Our proposal centered around getting the message out to children of non-english speakers since the children often have stronger English skills than the parents. ",
+                "tools": ["Demographic research, Grassroots Advertising"]
             }
         ]
     }

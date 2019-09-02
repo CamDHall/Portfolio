@@ -2,6 +2,12 @@ import React, { useState, useEffect } from 'react';
 import GenericContainer from './GenericContainer';
 import './styles/App.scss';
 
+function hideImage() {
+    const container = document.getElementById("fullImage");
+    container.classList.remove("show");
+    container.classList.add("hide");
+}
+
 function App() {
     const [webJobs, setWebJobs]           = useState(null);
     const [gameJobs, setGameJobs]         = useState(null);
@@ -114,6 +120,10 @@ function App() {
                     }
                 </div>
                 : null }
+                <div id="fullImage" className="hide">
+                    <img></img>
+                    <button onClick={hideImage}>&#10005;</button>
+                </div>
             </div>
         </div>
     );
