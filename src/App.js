@@ -24,7 +24,7 @@ function App() {
 
                 data.forEach((job) => {
                     if(job.industry === "web") web.push(job);
-                    else if(job.industry === "game") games.push(job);
+                    else if(job.industry === "games") games.push(job);
                     else schooling.push(job);
                 });
 
@@ -97,7 +97,7 @@ function App() {
             <div className="container">
                 <div className="intro">
                     <h1>Cameron<br /> Hall</h1>
-                    <p>Adipiscing diam donec adipiscing tristique risus nec feugiat. Sed enim ut sem viverra aliquet eget sit. Vel risus commodo viverra maecenas accumsan. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Lorem ipsum dolor sit amet consectetur adipiscing. Urna neque viverra justo nec ultrices. Tortor consequat id porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam. Augue mauris augue neque gravida in fermentum. Sit amet venenatis urna cursus eget. Elementum curabitur vitae nunc sed velit. Rhoncus urna neque viverra justo nec ultrices dui sapien.</p>
+                    <p>I have worked on websites in industries ranging from eCommerce to healthcare using React, NodeJS, and .NET Core. I've worked on VR simulations and mobile game development using Unity 3D. I graduated from New York University with a Bachelors in Game Design. I also hold a Bachelor's in Marketing from Wichita State University. I'm continuing to grow my understanding of microservices and web architecture while working on game projects which interest me. </p>
                 </div>
                 <div id="web-jobs">
                     {webJobs ? webJobs.map((job) => {
@@ -112,13 +112,13 @@ function App() {
                 {
                     schooling ? 
                     <div id="education">
-                    <h2>Education</h2>
-                    {
-                        schooling.map((school) => {
-                            return <GenericContainer key={school.title} experience={school} />;
-                        })
-                    }
-                </div>
+                        <h2>Education</h2>
+                        {
+                            schooling.map((school) => {
+                                return <GenericContainer key={school.title} experience={school} />;
+                            })
+                        }
+                    </div>
                 : null }
                 <div id="fullImage" className="hide">
                     <img></img>

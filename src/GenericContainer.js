@@ -20,8 +20,6 @@ export default function GenericContainer(props) {
             return isCurrentTitle;
         });
 
-        console.log(imageSrc);
-
         // Fade text
         element.classList.remove("fade");
         void element.offsetWidth;
@@ -73,6 +71,7 @@ export default function GenericContainer(props) {
                     {
                         props.experience.projects.map(project => {
                             var cName = "inactive";
+                            console.log(project.title);
                             if(project.title === activeProject.title) cName = "active"
                             return (
                                 <button className={cName} key={project.title} onClick={() => changeActiveProject(project.title)}>

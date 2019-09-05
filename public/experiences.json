@@ -8,18 +8,18 @@
         "projects": [
             {
                 "title": "General Info",
-                "description": "As a software developer at Hagee Ministries, I update and maintain 8 different websites.  These sites are used for collecting donations across the globe as well as eCommerce stores, schools, and other organizations controlled by Hagee Ministries. We recently ported all sites from .NET Framework to .NET Core 2.2. For 6 of our sites which are similar in functionality and design, like <a target='_blank' href='https://www.sa-ccs.org/'>sa-ccs.org</a>, we utilize a component architecture which allows us to work on a unified codebase for sites.",
+                "description": "As a software developer at Hagee Ministries, I update and maintain 8 different websites.  These sites are used for collecting donations across the globe as well as eCommerce stores, schools, and other organizations controlled by Hagee Ministries. We recently ported all sites from .NET Framework to .NET Core 2.2. For 6 of our sites which are similar in functionality and design, like <a target='_blank' rel='noopener noreferrer'  href='https://www.sa-ccs.org/'>sa-ccs.org</a>, we utilize a component architecture which allows us to work on a unified codebase for sites.",
                 "tools": [ "MS SQL", ".NET Core", ".NET Framework", "TFS" ]
             },
             {
                 "title": "JHM.org Port",
-                "description": "I assisted in moving the <a target='_blank' href='https://www.jhm.org'>jhm.org</a> website from .NET Framework to .NET Core 2.2. We also moved a large portion of the sites functionality to shared services and shared controllers, to benefit other Hagee Ministries websites like <a target='_blank' href='https://www.sacornerstone.org/'>sacornerstone.org</a>. I redesigned and merged administrative tools for jhm.org and our customer service software to create a more unified codebase.",
+                "description": "I assisted in moving the <a target='_blank' rel='noopener noreferrer' href='https://www.jhm.org'>jhm.org</a> website from .NET Framework to .NET Core 2.2. We also moved a large portion of the sites functionality to shared services and shared controllers, to benefit other Hagee Ministries websites like <a target='_blank' rel='noopener noreferrer' href='https://www.sacornerstone.org/'>sacornerstone.org</a>. I redesigned and merged administrative tools for jhm.org and our customer service software to create a more unified codebase.",
                 "tools": [ ".NET Core", ".NET Framework", "Microsoft SQL" ],
                 "imageSrc": "jhm.png"
             },
             {
                 "title": "Component Sites",
-                "description": "I maintain and update Razor views and .NET Core controllers which are shared across 6 different sites associated with Hagee Ministries. I am currently aiding in moving the front-end for our component sites to React, to aid in porting all sites to mobile web apps in the future. One of our biggest component sites is <a target='_blank' href='https://www.sa-ccs.org/'>sa-ccs.org</a>.",
+                "description": "I maintain and update Razor views and .NET Core controllers which are shared across 6 different sites associated with Hagee Ministries. I am currently aiding in moving the front-end for our component sites to React, to aid in porting all sites to mobile web apps in the future. One of our biggest component sites is <a target='_blank' rel='noopener noreferrer' href='https://www.sa-ccs.org/'>sa-ccs.org</a>.",
                 "tools": ["NodeJS", "React", "MS SQL", "Jira", "Git"]
             }
         ]
@@ -66,7 +66,7 @@
                 "tools": ["Objective-C, Java, Unity3D" ]
             },
             {
-                "title": "VR Simulation Testing",
+                "title": "VR Simulation QA",
                 "description": "I assisted in testing different VR simulations utilizing the HTC Vive VR Headset. I assured all simulations functioned properly and did not suffer performance stuttering. ",
                 "tools": ["HTC Vive"]
             },
@@ -85,7 +85,7 @@
         "time": "10/2017-02/2018",
         "projects": [
             {
-                "title": "Kids Break Ground Mobile App",
+                "title": "Kids Break Ground",
                 "description": "As part of my internship, I finished an MVP version of the application and then ported the app from React Native to Unity, for future improvements. I used Firebase for user logins and to store game data. I developed a framework for flashcard minigames. I improved the avatar customization for the user profiles. ",
                 "tools": ["React Native, Unity3D, C#"]
             }
@@ -130,13 +130,13 @@
             },
             {
                 "title": "Gelato Banditos",
-                "description": "For my action games and intermediate game programming classes, I worked on an open-world, space-flight game. Gelato Banditos originally was an infinite asteroid field with some space combat. After finishing a tech demo, I decided to change the scope to fit my technical skillset and to improve the fun-ness of the game. I learned how to generate large amounts of 3D models and basic enemy AI. The original demo can be foudn on itch: <a target='_blank' href='https://camerondhall.itch.io/gelato-banditos-prototype'>Gelato Banditos</a>",
+                "description": "For my action games and intermediate game programming classes, I worked on an open-world, space-flight game. Gelato Banditos originally was an infinite asteroid field with some space combat. After finishing a tech demo, I decided to change the scope to fit my technical skillset and to improve the fun-ness of the game. I learned how to generate large amounts of 3D models and basic enemy AI. The original demo can be foudn on itch: <a target='_blank' rel='noopener noreferrer' href='https://camerondhall.itch.io/gelato-banditos-prototype'>Gelato Banditos</a>",
                 "tools": ["Unity3D, Procedural Generation, 3D movement"],
                 "imageSrc": "gelatobanditos.png"
             },
             {
                 "title": "Up Next",
-                "description": "As a programmer in a team of 4, I worked on spawning mechanics for an Arena Shooter game. Up Next was developed as part of a group project for Intermediate Game Development and the final project can be found on itch: <a target='_blank' href='https://tfinz.itch.io/up-next'>Up Next</a>",
+                "description": "As a programmer in a team of 4, I worked on spawning mechanics for an Arena Shooter game. Up Next was developed as part of a group project for Intermediate Game Development and the final project can be found on itch: <a target='_blank' rel='noopener noreferrer' href='https://tfinz.itch.io/up-next'>Up Next</a>",
                 "tools": [ "Unity3D, C#, Git" ],
                 "imageSrc": "upnext.png"
             },

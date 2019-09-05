@@ -39,16 +39,14 @@
 
     .project-links {
         margin-top: 2em;
-        background-color: $secondary;
-        padding: 0.75em 0.5em;
         button {
-            background: none;
+            background-color: $secondary;
             border: none;
             box-shadow: none;
             font-size: 0.9em;
-            padding: 0;
+            padding: 1em 1.5em;
+            margin: 0.5em 0.25em;
             color: black;
-            margin: 0 0.75em;
             cursor: pointer;
         }
 
@@ -56,9 +54,14 @@
             outline: none;
         }
 
+        button:hover {
+            background-color: $grey-light;
+        }
+
         .active {
             font-weight: bold;
             color: $grey-dark;
+            background-color: $grey-light;
         }
     }
 }
